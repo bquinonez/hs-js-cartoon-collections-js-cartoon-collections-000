@@ -17,7 +17,7 @@ function summonCaptainPlanet(planeteerCalls){
 
 
 function longPlaneteerCalls(words){
-  for(var i=0;i<words.length;i++){
+  for(var i=0; i<words.length; i++){
     if (words[i].length>4){
       return true
     }
@@ -25,12 +25,10 @@ function longPlaneteerCalls(words){
   return false
 }
  
-var words = ["wind", "fire"]
-longPlaneteerCalls(words)
  
 
 function findTheCheese (foods) {
-  for(var i=0;i<foods.length;i++){
+  for(var i=0; i<foods.length; i++){
   if (foods[i]=="cheddar"
   ||foods[i]=="gouda"
   ||foods[i]=="camembert"
